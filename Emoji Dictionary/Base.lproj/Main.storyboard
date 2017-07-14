@@ -77,6 +77,10 @@
                             <constraint firstItem="PIX-Q9-SHu" firstAttribute="centerX" secondItem="ZMi-Dm-ESF" secondAttribute="centerX" constant="-5.5" id="cMA-AK-0QD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="hhq-oE-z7V" id="XLy-UO-EfY"/>
+                        <outlet property="emojiDefLabel" destination="PIX-Q9-SHu" id="aYo-qP-clO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="io7-xP-85h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
